@@ -1,2 +1,40 @@
-# week9
-Data collection: Connecting to the Twitter API with twarc2 + connecting to other social media platform*
+# Week 9: Data collection: Connecting to the Twitter API with twarc2 + connecting to other social media platform
+This week, we will learn how to make data requests from the Twitter API using twarc2, a command line tool and Python library for archiving Twitter data and we will use the Pandas library to wrangle, clean, analyze, and visualize Twitter data. We will also discuss approaches for collecting other types of social media data, including TikTok, Instagram, Facebook, Reddit, and more. 
+
+- Topics covered:
+    - How to connect to the Twitter API using twarc2, a Python package developed by [Document the Now](http://www.docnow.io).
+    - Ethics of working with Twitter data.
+    - How to extract top hashtags.
+    - How to get data from Facebook, Instagram, Youtube, TikTok, Reddit, Spotify, and more. 
+-  Curriculum for this session:
+    - Melanie Walsh, _Introduction to Cultural Analytics_, [Twitter Data](https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/10-Twitter.html) (Twitter API setup, Data collection & Analysis, Data Sharing)
+- Assignments (due by 10am on the day of class):
+    - Work through the curriculum for the upcoming week's session in a Jupyter Notebook. Download your Jupyter Notebook as "ipynb" file (Go to "File", "Download as", "Notebook (.ipynb)"), and [upload](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) the file to the weekly GitHub assignment link.
+        -  You are welcome to use the dataset provided in the curriculum link or use a dataset of your choice. 
+- Additional readings/resources (not required, but useful!):
+    - Tutorials: 
+        - [twarc documentation](https://twarc-project.readthedocs.io/en/latest/)
+        - University of Nevada, Las Vegas: [Twitter Data Collection Using twarc](https://www.library.unlv.edu/sites/default/files/inline-images/l2AivT8YAnUsEau6TjjDvXmXIAl9fAVmElTlxnNhB5lDSWaKTf.pdf) 
+        - Collecting data from other social media platforms:
+            - American University Library Social Media Research guides: 
+                - [Instagram](https://subjectguides.library.american.edu/c.php?g=1238130&p=9060339)
+                - [Facebook](https://subjectguides.library.american.edu/c.php?g=1238130&p=9060340)
+                - [Youtube](https://subjectguides.library.american.edu/c.php?g=1238130&p=9060343)
+                - [TikTok](https://subjectguides.library.american.edu/c.php?g=1238130&p=9060344)
+            - Meta's [Crowdtangle](https://www.crowdtangle.com) with [PyCrowdTangle](https://pypi.org/project/PyCrowdTangle/)
+            - [Reddit/Pushift API](https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/14-Reddit-Data.html)
+            - [Spotify's API](https://developer.spotify.com/documentation/web-api/libraries/) with [Spotipy](https://spotipy.readthedocs.io/). More details from [Towards Data Science](https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50)
+            - TikTok: [TikTok hashtag analysis toolset](https://github.com/bellingcat/tiktok-hashtag-analysis) & [PykTok](https://github.com/dfreelon/pyktok)
+    - Studies: 
+        - Chen, Kaiping, Zening Duan, and Sijia Yang. "Twitter as Research Data: Tools, Costs, Skill Sets, and Lessons Learned." _Politics and the Life Sciences_ 41, no. 1 (ed 2022): 114-30.[ https://doi.org/10.1017/pls.2021.19](https://doi.org/10.1017/pls.2021.19).
+            - This is a comprehensive review of the challenges of working with Twitter data, and the pitfalls to avoid. 
+        - Chen, Kaiping, and David Tomblin. "Using Data from Reddit, Public Deliberation, and Surveys to Measure Public Opinion about Autonomous Vehicles." _Public Opinion Quarterly_ 85, no. S1 (September 1, 2021): 289-322.[ https://doi.org/10.1093/poq/nfab021](https://doi.org/10.1093/poq/nfab021).
+            - This paper explores the difference between public opinions collected from surveys as opposed to social media platforms, focusing on the test case of opinions about autonomous vehicles.
+        - Eriksson Krutrök, Moa, and Mathilda Åkerlund. "Through a White Lens: Black Victimhood, Visibility, and Whiteness in the Black Lives Matter Movement on TikTok." _Information, Communication & Society_ 0, no. 0 (April 29, 2022): 1-19.[ https://doi.org/10.1080/1369118X.2022.2065211](https://doi.org/10.1080/1369118X.2022.2065211).
+            - This papers studies "how highly visible users in the context of #BlackLivesMatter on TikTok shape the narrative around Black victims of police brutality, the understanding of these narratives by others, and the potential consequences of these portrayals for the movement at large."
+        - Proferes, Nicholas, Naiyan Jones, Sarah Gilbert, Casey Fiesler, and Michael Zimmer. "Studying Reddit: A Systematic Overview of Disciplines, Approaches, Methods, and Ethics." _Social Media + Society_ 7, no. 2 (April 1, 2021): 20563051211019004.[ https://doi.org/10.1177/20563051211019004](https://doi.org/10.1177/20563051211019004).
+            - This meta study of social science Reddit research looks at the increase in Reddit being used as a data source, the range of disciplines that use Reddit data for research, the ways researchers are getting access to Reddit data, the types of variables researchers are using, the subreddits and topics being studied, the methods of analysis researchers are engaging in, and the emerging ethical questions researching Reddit. 
+        - Vydra, Simon, and Jaroslaw Kantorowicz. "Tracing Policy-Relevant Information in Social Media: The Case of Twitter before and during the COVID-19 Crisis." _Statistics, Politics and Policy_ 12, no. 1 (June 1, 2021): 87-127.[ https://doi.org/10.1515/spp-2020-0013](https://doi.org/10.1515/spp-2020-0013).
+            - This paper aims to understand how real-time social media data can inform public policy using Twitter data. 
+        - Zeng, Jing, and Crystal Abidin. "'#OkBoomer, Time to Meet the Zoomers': Studying the Memefication of Intergenerational Politics on TikTok." _Information, Communication & Society_ 24, no. 16 (December 10, 2021): 2459–81.[ https://doi.org/10.1080/1369118X.2021.1961007](https://doi.org/10.1080/1369118X.2021.1961007).
+            - This paper uses #OkBoomer memes on TikTok as a case study to examine the political culture of young people and Gen Z in particular. 
